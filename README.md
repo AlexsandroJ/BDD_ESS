@@ -1,6 +1,6 @@
 # Passos para Configurar o Projeto
 
-##  * 1 Instalar Git
+## 1 Instalar Git
 Git é uma ferramenta de controle de versão que permite gerenciar e acompanhar mudanças no seu código-fonte ao longo do tempo.
 
 Windows:
@@ -26,7 +26,7 @@ sudo apt-get update
 sudo apt-get install git
 ```
 
-2. Instalar Node.jse npm
+## 2. Instalar Node.jse npm
 Node.js é um ambiente de execução de JavaScript, e npm (Node Package Manager) é o gerenciador de pacotes padrão para Node.js, usado para instalar bibliotecas e ferramentas de desenvolvimento.
 
 Windows e macOS:
@@ -56,28 +56,28 @@ sh
 ```
 sudo pacman -S nodejs npm
 ```
-3. Clonar o Repositório do Projeto
+## 3. Clonar o Repositório do Projeto
 Usando o Git, você pode clonar o repositório do seu projeto para obter uma cópia local.
 
 sh
 ```
 git clone https://github.com/AlexsandroJ/BDD_ESS.git
 ```
-4. Navegar até o Diretório do Projeto
+## 4. Navegar até o Diretório do Projeto
 Depois de clonar o repositório, navegue até o diretório do projeto.
 
 sh
 ```
 cd BDD_ESS
 ```
-5. Instalar as Dependências do Projeto
+## 5. Instalar as Dependências do Projeto
 Use o npm para instalar todas as dependências listadas no arquivo package.json do projeto.
 
 sh
 ```
 npm install
 ```
-6. Iniciar os testes do Projeto
+## 6. Iniciar os testes do Projeto
 Uma vez que as dependências estejam instaladas, você pode iniciar os testes do projeto.
 
 sh
