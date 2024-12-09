@@ -4,7 +4,7 @@
 Git é uma ferramenta de controle de versão que permite gerenciar e acompanhar mudanças no seu código-fonte ao longo do tempo.
 
 Windows:
-Acesse o site oficial do [Git](git-scm.com)
+Acesse o site oficial do [Git](https://git-scm.com)
 
 Baixe o instalador para Windows.
 
@@ -30,7 +30,7 @@ sudo apt-get install git
 Node.js é um ambiente de execução de JavaScript, e npm (Node Package Manager) é o gerenciador de pacotes padrão para Node.js, usado para instalar bibliotecas e ferramentas de desenvolvimento.
 
 Windows e macOS:
-Acesse o site oficial do Node.js: nodejs.org
+Acesse o site oficial do [Node.js](https://nodejs.org)
 
 Baixe o instalador para o seu sistema operacional (recomendo a versão LTS).
 
@@ -45,16 +45,10 @@ sudo apt-get update
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 ```
-No Fedora:
-
-Terminal
-sudo dnf install nodejs
-sudo dnf install npm
-No Arch Linux:
-
 Terminal
 ```
-sudo pacman -S nodejs npm
+sudo dnf install nodejs
+sudo dnf install npm
 ```
 ## 3. Clonar o Repositório do Projeto
 Usando o Git, você pode clonar o repositório do seu projeto para obter uma cópia local.
