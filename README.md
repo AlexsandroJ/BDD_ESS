@@ -18,10 +18,9 @@ Linux:
 No Ubuntu ou distribuições baseadas em Debian:
 
 sh
-'''
-sudo apt-get update
-sudo apt-get install git
-'''
+'''sudo apt-get update
+'''sudo apt-get install git
+
 No Fedora:
 
 sh
