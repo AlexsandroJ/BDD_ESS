@@ -1,6 +1,6 @@
 * Passos para Configurar o Projeto
 
-#1. Instalar Git
+# 1. Instalar Git
 Git é uma ferramenta de controle de versão que permite gerenciar e acompanhar mudanças no seu código-fonte ao longo do tempo.
 
 Windows:
