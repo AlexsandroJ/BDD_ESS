@@ -4,7 +4,7 @@
 Git é uma ferramenta de controle de versão que permite gerenciar e acompanhar mudanças no seu código-fonte ao longo do tempo.
 
 Windows:
-Acesse o site oficial do Git: git-scm.com
+Acesse o site oficial do [Git](git-scm.com)
 
 Baixe o instalador para Windows.
 
