@@ -18,15 +18,16 @@ Linux:
 No Ubuntu ou distribuições baseadas em Debian:
 
 sh
-'''sudo apt-get update
-'''sudo apt-get install git
+'''
+sudo apt-get update
+sudo apt-get install git
 
 No Fedora:
 
 sh
-'''
+
 sudo dnf install git
-'''
+
 
 2. Instalar Node.jse npm
 Node.js é um ambiente de execução de JavaScript, e npm (Node Package Manager) é o gerenciador de pacotes padrão para Node.js, usado para instalar bibliotecas e ferramentas de desenvolvimento.
