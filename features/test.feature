@@ -12,3 +12,16 @@ Feature: Cadastro de Usuário
     And o usuário submete o formulário de cadastro
     Then o usuário deve ver uma mensagem de erro indicando que o usuário já está cadastrado
 
+  Scenario: Mostrar informações do filme de uma tabela
+    Given existem os seguintes filmes:
+      | Name                     | Year | IMDb |
+      | The Shawshank Redemption | 1994 | 9.3  |
+      | The Godfather            | 1972 | 9.2  |
+      | The Dark Knight          | 2008 | 9.0  |
+    When exibe os filmes
+    Then deve ver os seguintes detalhes do filme:
+      | Name                     | Year | IMDb |
+      | The Shawshank Redemption | 1994 | 9.3  |
+      | The Godfather            | 1972 | 9.2  |
+      | The Dark Knight          | 2008 | 9.0  |
+

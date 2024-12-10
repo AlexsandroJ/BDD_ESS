@@ -4,7 +4,6 @@ const assert = require('assert');
 let usuariosCadastrados = {};
 let nomeCadastro = '';
 let cpfCadastro = '';
-let mensagem = '';
 
 Given('que o usuário não está cadastrado com o CPF {string}', function (cpf) {
     // Verifica se o usuário não está cadastrado
@@ -40,4 +39,25 @@ Then('o usuário deve ser cadastrado com sucesso', function () {
 Then('o usuário deve ver uma mensagem de erro indicando que o usuário já está cadastrado', function () {
     // Verifica se a mensagem de erro é exibida
     console.log('Usuário vê uma mensagem de erro indicando que o usuário já está cadastrado');
+});
+
+
+let movies = [];
+
+Given('existem os seguintes filmes:', function (dataTable) {
+  movies = dataTable.hashes();
+  console.log("Lista de Filmes no banco:\n",movies);
+});
+
+When('exibe os filmes', function () {
+  // precisa conter algo para passar nos testes
+  console.log("Exibe filmes");
+});
+
+Then('deve ver os seguintes detalhes do filme:', function (dataTable) {
+    movies = dataTable.hashes();
+    console.log("Exemplo de exibição de dados:\n");
+    movies.forEach(element => {
+        console.log("Name: ",element.Name," Year: ",element.Year," IMDb: ",element.IMDb );
+      });
 });
