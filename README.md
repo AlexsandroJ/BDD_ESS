@@ -1,7 +1,6 @@
 # BDD com CUCUMBER.JS
 
 ## 1 Instalar Git
-Git é uma ferramenta de controle de versão que permite gerenciar e acompanhar mudanças no seu código-fonte ao longo do tempo.
 
 Windows:
 Acesse o site oficial do [Git](https://git-scm.com)
@@ -80,3 +79,4 @@ npm test
 ```
 ### Link Tutorial [cucumber.js](https://cucumber.io/docs/guides/10-minute-tutorial/?lang=javascript)
  
+### Funções para testes da features em features/step_definitions/stepdefs.js
