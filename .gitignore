@@ -2,3 +2,5 @@
 node_modules/
 
 chatgpt.js
+
+package-lock.json
