@@ -1,4 +1,4 @@
-Feature: Cadastro de Usuário
+Feature: Exemplo para testes e estudos
 
   Scenario: Cadastro de usuário novo
     Given que o usuário não está cadastrado com o CPF "123.456.789-09"
