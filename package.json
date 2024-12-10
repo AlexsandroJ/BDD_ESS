@@ -1,0 +1,15 @@
+{
+  "name": "hellocucumber",
+  "version": "1.0.0",
+  "description": "Git é uma ferramenta de controle de versão que permite gerenciar e acompanhar mudanças no seu código-fonte ao longo do tempo.",
+  "main": "chatgpt.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0"
+  }
+}
