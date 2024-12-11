@@ -80,3 +80,4 @@ npm test
 ### Link Tutorial [cucumber.js](https://cucumber.io/docs/guides/10-minute-tutorial/?lang=javascript)
  
 ### Funções para testes da features em features/step_definitions/stepdefs.js
+### Após adicionar novas features o cucumber gera exemplos de funções para testes no terminal, apenas copiar e colocar no arquivo correto.
